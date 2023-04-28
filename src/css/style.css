@@ -1,0 +1,192 @@
+body {
+    text-align: center;
+}
+
+.h1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+
+#user {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.level {
+    padding: 0.8rem 0;
+}
+
+.level-item {
+    margin-left: 0;
+}
+
+.btn-start {
+    margin-top: 10px;
+}
+
+#selectTeam,
+#selectName {
+    max-width: 312px;
+}
+
+.insertmsg {
+    width: 100%;
+    position: absolute;
+    top: -40px;
+    background: hsl(141, 71%, 48%);
+    color: #fff;
+}
+
+.score-window {
+    display: none;
+    position: absolute;
+    top: 397px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.7);
+    min-width: 355px;
+}
+
+.form-container {
+    margin-top: 25px;
+}
+
+#form-Team,
+#form-Name,
+#form-Score{
+    max-width: 20.9rem;
+    background: hsl(0, 0%, 96%);
+    pointer-events: none;
+}
+
+#form-Score{
+    color: #ff3860;
+}
+
+
+#form_result{
+    display: none;
+}
+
+#btn-end {
+    margin-top: 10px;
+}
+
+#score {
+    text-align: center;
+    border: none;
+    background: hsl(0, 0%, 96%);
+    pointer-events: none;
+    font-size: 2.2rem;
+}
+
+.notification {
+    margin-top: 10px;
+}
+
+.button {
+    min-width: 315px;
+    margin-top: 10px;
+}
+
+#counter {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quiz {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#question {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#correct {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.prog {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#btn-return-quiz {
+    margin-top: 50px;
+}
+
+.table-results {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.table {
+    min-width: 19.7rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
+    .score-window {
+        width: 95%;
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .level {
+        margin: 0 50px;
+    }
+    .score-window {
+        top: 34.3rem;
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #scoreContainer {
+        top: -380px;
+    }
+}
+
+.animated {
+    animation: mymove 4s infinite;
+    color: #ff3860;
+    font-weight: bold;
+}
+
+@keyframes mymove {
+    30% {
+        font-size: 20px;
+    }
+}
+
+.movedown {
+    animation: slideup 3.4s ease;
+}
+
+@keyframes slideup {
+    50% {
+        top: 0;
+    }
+
+    100% {
+        top: -40px;
+    }
+}
