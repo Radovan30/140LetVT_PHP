@@ -1,28 +1,14 @@
 <?php
-
-$con = include('conectionDB.php');
+$con = include('connect.php');
 
 $team = "";
 $name = "";
 $score = "";
 
 //query to get data from the table
-$sql = "SELECT * FROM result";
+$sql = "SELECT team, SUM(score) AS score  FROM result GROUP BY team ORDER BY score DESC " ;
 
 $result = mysqli_query($con, $sql);
 
-while ($row = mysqli_fetch_array($result)) {
 
-    $team = $team . '"'. $row['team'].'",';
-    $name = $name . '"'. $row['username'] .'",';
-    $score = $score . '"'. $row['score'] .'",';
-}
-
-$team = trim($team,",");
-$name = trim($name,",");
-$score = trim($score,",");
-
-echo $team;
-echo $name;
-echo $score;
-//"INSERT INTO result (team, username, score)
+return $result;

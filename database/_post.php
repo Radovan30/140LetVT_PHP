@@ -1,5 +1,6 @@
 <?php
-$con = include('conectionDB.php');
+include('message.php');
+$con = include('connect.php');
 
 $team = "";
 $username = "";
@@ -15,13 +16,15 @@ if (isset($_POST["adduser"])) {
     $query = "INSERT INTO result (team, username, score)
     VALUES('$team','$username','$score')";
 
-    mysqli_query($con, $query);
+    $query = mysqli_query($con, $query);
 
+    if (!$query) {
+        die("Data was not saved successfully!");
+    }
+
+    // $_SESSION['message'] = "Data uložena";
     header('Location: ../index.php?');
-    exit;
+    exit(0);
+
+
 }
-
-
-
-
-

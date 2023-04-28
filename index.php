@@ -1,4 +1,5 @@
 <?php
+session_start();
 require('_header.php');
 ?>
 
@@ -18,7 +19,7 @@ require('_header.php');
                     <option value="101Gang">101Gang</option>
                     <option value="Error 404">Error 404</option>
                     <option value="POJACI">POJÁCI</option>
-                    <option value="Emesáci z Lískáče">Emesáci z Lískáče</option>
+                    <option value="Emesaci z Liskace">Emesáci z Lískáče</option>
                     <option value="FM Kulisaci">FM Kulišáci</option>
                     <option value="Mechanici ze Zengrovky">Mechanici ze Zengrovky</option>
                     <option value="Kulisaci">Kulišáci</option>

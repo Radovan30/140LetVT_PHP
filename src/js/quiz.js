@@ -192,8 +192,6 @@ const btnStart = document.getElementById( "btn-start" );
 
 const btnScore = document.getElementById( "btn-result" );
 
-//const btnEnd = document.getElementById( "btn-end" );
-
 const quiz = document.getElementById( "quiz" );
 
 const question = document.getElementById( "question" );
@@ -235,20 +233,45 @@ let team = "";
 let user = "";
 
 
+
+function deleteDiacritics( str1 ) {
+    let i, j, str2;
+    str2 = '';
+    for ( i = 0; i < str1.length; i++ ) {
+        j = DIAKRITIKA[ 0 ].indexOf( str1.charAt( i ) );
+        if ( j !== -1 ) {
+            str2 += DIAKRITIKA[ 1 ].charAt( j );
+        }
+        else {
+            str2 += str1.charAt( i );
+        }
+    }
+    return str2;
+}
+
+
+var DIAKRITIKA = [
+    "áäčďéěíĺľňóôöŕšťúůüýřžÁÄČĎÉĚÍĹĽŇÓÔÖŔŠŤÚŮÜÝŘŽ",
+    "aacdeeillnooorstuuuyrzAACDEEILLNOOORSTUUUYRZ"
+];
+
+
+
+
+
 // create some variables
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
 const progressValue = 60;
 const questionTime = 60; // 60s
-//const gaugeWidth = 150; // 150px
-//const gaugeUnit = gaugeWidth / questionTime;
 let TIMER;
 let score = 0;
 let scoreSave = 0;
 let progresTime = 0;
 let extract = 0;
 const countExtract = 7;
+
 
 // render a question
 function renderQuestion() {
@@ -291,6 +314,7 @@ function renderQuestion() {
 // start quiz
 
 btnStart.addEventListener( "click", function () {
+
     
     user = userName.value;
     team = userTeam.value;
@@ -299,6 +323,7 @@ btnStart.addEventListener( "click", function () {
     }
     else {
         setUser();
+        
         extractNav.innerHTML = extract + "/" + 30;
         renderQuestion();
         quiz.style.display = "block";
@@ -308,13 +333,6 @@ btnStart.addEventListener( "click", function () {
     }
 } );
 
-/*
-// render progress
-function renderProgress() {
-    for ( let qIndex = 0; qIndex <= lastQuestion; qIndex++ ) {
-    }
-}
-*/
 
 function renderCounter() {
     if ( count <= questionTime ) {
@@ -364,7 +382,7 @@ function scoreRender() {
     scoreDiv.style.display = "inherit";
 
     formTeam.value = userTeam.value;
-    formUser.value = userName.value;
+    formUser.value = deleteDiacritics( userName.value );
     formScore.value = score.toFixed();
 
 }
@@ -376,30 +394,3 @@ function setUser() {
     selectSettings.style.display = "none";
 }
 
-
-/*
-function refreshPage () {
-    team = userTeam.value;
-    user = userName.value;
-
-    db.result.bulkPut( [
-        { team: team, name: user, score: scoreSave },
-    ] );
-    window.location.reload();
-} 
-
-
-db.result.where( "team" ).startsWith( '1' )
-    .each( function ( user ) {
-        console.log( "score: " + user.score )
-    } );
-*/
-/*
-onClick=refreshPage() 
-db.result
-    .where( 'team' ).above( '1' ).shortBy( 'score')
-    .each( function ( user ) {
-        console.log( "score: " + user.score )
-    } );
-  */
-  

@@ -1,22 +1,40 @@
 <?php
 require('_header.php');
+$result = include('database/_read.php');
+
 ?>
 
-<div id="btn-score">
-    <button class="button is-danger is-large" id="btn-read">Načti výsledky</button>
-</div>
 
-<section class=" table-results">
+<section class="table-results">
     <article class="container">
         <table id="result-table" class="table is-striped">
             <thead>
                 <tr class="is-selected">
+                    <th>Místo</th>
                     <th>Tým</th>
-                    <th>Jméno</th>
                     <th>Skóre</th>
                 </tr>
             </thead>
             <tbody id="tbody">
+                <tr>
+                    <?php
+                    $number = 0;
+                    while ($data = mysqli_fetch_assoc($result)) {
+                        ?>
+                    <tr>
+                        <td>
+                            <?php $number += 1;  echo($number);?>
+                        </td>
+                        <td>
+                            <?php echo $data['team']; ?>
+                        </td>
+                        <td>
+                            <?php echo $data['score']; ?>
+                        </td>
+                    </tr>
+                    <?php
+                    }
+                    ?>
 
             </tbody>
         </table>
@@ -24,12 +42,10 @@ require('_header.php');
     </article>
 </section>
 
+
+
 <div id="">
     <a href="index.php">
         <button class="button is-info is-large">ZPĚT</button>
     </a>
 </div>
-
-<?php
-require('_footer.php');
-?>
