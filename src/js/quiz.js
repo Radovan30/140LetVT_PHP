@@ -2,20 +2,25 @@
 
 let questions = [
     {
-        "question": "Ve kterém roce byla vyrobena první trubka v plynové peci svařená na tupo? Jednalo se o první trubku vyrobenou v Rakousko-uherské monarchii. Do té doby se dovážely z Anglie nebo Německa. ",
-        "options1": "1880",
-        "options2": "1896",
-        "options3": "1883",
-        "options4": "1905",
+        "question": "Kolik válců používá poutní stolice Velkého Mannesmanu při válcování? ",
+        "options1": "4",
+        "options2": "3",
+        "options3": "2",
         "correct ": "C"
     },
     {
-        "question": "Díky modernizaci tratí v roce 2008 byla navýšena roční kapacita výroby trub na: ",
-        "options1": "60 tisíc tun",
-        "options2": "123 tisíc tun",
-        "options3": "90 tisíc tun",
-        "options4": "140 tisíc tun",
+        "question": "Jaké jsou vstupní rozměry vsázky pro Malý Mannesmann? ",
+        "options1": "Ø120, Ø150, Ø180",
+        "options2": "Ø150, Ø180, Ø210",
+        "options3": "Ø180, Ø210, Ø240",
         "correct ": "B"
+    },
+    {
+        "question": "Kolik v průměru kubických metrů kyslíku ročně potřebuje Špalkárna na dělení špalků pro výrobu Válcovny trub? ",
+        "options1": "Průměrně 470 000 Nm3",
+        "options2": "Průměrně 810 000 Nm3",
+        "options3": "Průměrně 660 000 Nm3 ",
+        "correct ": "C"
     },
     {
         "question": "Je Válcovna trub schopna vyrobit také pouze jednu trubku podle specifikací zákazníka? ",
@@ -24,18 +29,19 @@ let questions = [
         "correct ": "A"
     },
     {
-        "question": "Jak se jmenuje obkročné vozidlo převážející materiál v našem závodě? ",
-        "options1": "Mannesmann",
-        "options2": "Ingoty",
-        "options3": "Kalibr",
-        "options4": "Clark",
-        "correct ": "D"
+        "question": "Kde se původně nacházela ohýbárna trubek za studena? ",
+        "options1": "Špalkárna",
+        "options2": "Dnešní 11 hala",
+        "options3": "Sklad OOPP",
+        "correct ": "B"
     },
     {
-        "question": "Probíhá výroba stejným způsobem v Malém Mannesmannu a Velkém Mannesmannu? ",
-        "options1": "Ano",
-        "options2": "Ne",
-        "correct ": "A"
+        "question": "Díky modernizaci tratí v roce 2008 byla navýšena roční kapacita výroby trub na: ",
+        "options1": "60 tisíc tun",
+        "options2": "123 tisíc tun",
+        "options3": "90 tisíc tun",
+        "options4": "140 tisíc tun",
+        "correct ": "B"
     },
     {
         "question": "Vysokotlaký odstřik je používán k zbavování okují. ",
@@ -52,11 +58,11 @@ let questions = [
         "correct ": "C"
     },
     {
-        "question": "Který další výrobek Válcovna trub vyrábí? ",
-        "options1": "Svařovaný čtvercový profil",
-        "options2": "Bezešvý čtvercový a obdélníkový profil",
-        "options3": "Bezešvý čtvercový a trojúhelníkový profil",
-        "correct ": "B"
+        "question": "Kolik kusů nejdelších trub (14m) je potřeba spojit pro vytvoření potrubí okolo země v úrovní rovníku? ",
+        "options1": "Cca 3 150 000 kusů",
+        "options2": "Cca 2 520 000 kusů ",
+        "options3": "Cca 2 860 000 kusů",
+        "correct ": "C"
     },
     {
         "question": "Jaký druh korozní ochrany se používá pro trubky určené pro export po moři? ",
@@ -65,19 +71,18 @@ let questions = [
         "options3": "Aplikace speciálního antikorozního laku",
         "correct ": "C"
     },
-      {
-          "question": "Která z níže uvedených aplikací zlepšila významně kvalitu našich trubek na trati Velký Mannesman? ",
-          "options1": "Instalace vnějších a vnitřních brusek pro zlepšení kvality obou povrchů",
-          "options2": "Instalace termokamery pro detekci rozměrových odchylek při procesu děrování",
-          "options3": "Instalace podepření děrovaného předvalku pro stabilizaci rozměru předvalku",
-        "correct ": "C"
+    {
+        "question": "Probíhá výroba stejným způsobem v Malém Mannesmannu a Velkém Mannesmannu? ",
+        "options1": "Ano",
+        "options2": "Ne",
+        "correct ": "A"
     },
     {
-        "question": "Kde se původně nacházela ohýbárna trubek za studena? ",
-        "options1": "Špalkárna",
-        "options2": "Dnešní 11 hala",
-        "options3": "Sklad OOPP",
-        "correct ": "B"
+        "question": "Která z níže uvedených aplikací zlepšila významně kvalitu našich trubek na trati Velký Mannesman? ",
+        "options1": "Instalace vnějších a vnitřních brusek pro zlepšení kvality obou povrchů",
+        "options2": "Instalace termokamery pro detekci rozměrových odchylek při procesu děrování",
+        "options3": "Instalace podepření děrovaného předvalku pro stabilizaci rozměru předvalku",
+        "correct ": "C"
     },
     {
         "question": "Jak se říkalo odlehlému provozu válcovny trub, který sídlil v Ostravě – Svinově? ",
@@ -99,13 +104,6 @@ let questions = [
         "options2": "Legování",
         "options3": "Trasnformování",
         "correct ": "A"
-    },
-    {
-        "question": "Kolik válců používá poutní stolice Velkého Mannesmanu při válcování? ",
-        "options1": "4",
-        "options2": "3",
-        "options3": "2",
-        "correct ": "C"
     },
     {
         "question": "Co se stane se žhavou ocelovou trubkou, když ji prudce ochladíme ve studené vodě? ",
@@ -143,11 +141,26 @@ let questions = [
         "correct ": "C"
     },
     {
+        "question": "Jak se jmenuje obkročné vozidlo převážející materiál v našem závodě? ",
+        "options1": "Mannesmann",
+        "options2": "Ingoty",
+        "options3": "Kalibr",
+        "options4": "Clark",
+        "correct ": "D"
+    },
+    {
         "question": "Ve kterém roce proběhla rekonstrukce a modernizace Velkého Mannesmannu? ",
         "options1": "2008",
         "options2": "2009",
         "options3": "2010",
         "correct ": "A"
+    },
+    {
+        "question": "Který další výrobek Válcovna trub vyrábí? ",
+        "options1": "Svařovaný čtvercový profil",
+        "options2": "Bezešvý čtvercový a obdélníkový profil",
+        "options3": "Bezešvý čtvercový a trojúhelníkový profil",
+        "correct ": "B"
     },
     {
         "question": "Jaký je rozsah vyráběných průměrů ve Válcovně trub? ",
@@ -164,13 +177,6 @@ let questions = [
         "correct ": "B"
     },
     {
-        "question": "Kolik kusů nejdelších trub (14m) je potřeba spojit pro vytvoření potrubí okolo země v úrovní rovníku? ",
-        "options1": "Cca 3 150 000 kusů",
-        "options2": "Cca 2 520 000 kusů ",
-        "options3": "Cca 2 860 000 kusů",
-        "correct ": "C"
-    },
-    {
         "question": "Jaká je průměrná roční spotřeba zemního plynu v posledních pěti letech ve Válcovně trub? ",
         "options1": "132 596 MWh",
         "options2": "243 498 MWh",
@@ -183,13 +189,6 @@ let questions = [
         "options2": "Více než 79 %",
         "options3": "Více než 37 %",
         "correct ": "B"
-    },
-    {
-        "question": "Kolik v průměru kubických metrů kyslíku ročně potřebuje Špalkárna na dělení špalků pro výrobu Válcovny trub? ",
-        "options1": "Průměrně 470 000 Nm3",
-        "options2": "Průměrně 810 000 Nm3",
-        "options3": "Průměrně 660 000 Nm3 ",
-        "correct ": "C"
     },
     {
         "question": "Kolik mostových jeřábů je na provozu Válcovny trub? ",
@@ -206,11 +205,12 @@ let questions = [
         "correct ": "C"
     },
     {
-        "question": "Jaké jsou vstupní rozměry vsázky pro Malý Mannesmann? ",
-        "options1": "Ø120, Ø150, Ø180",
-        "options2": "Ø150, Ø180, Ø210",
-        "options3": "Ø180, Ø210, Ø240",
-        "correct ": "B"
+        "question": "Ve kterém roce byla vyrobena první trubka v plynové peci svařená na tupo? Jednalo se o první trubku vyrobenou v Rakousko-uherské monarchii. Do té doby se dovážely z Anglie nebo Německa. ",
+        "options1": "1880",
+        "options2": "1896",
+        "options3": "1883",
+        "options4": "1905",
+        "correct ": "C"
     },
 ]
 
@@ -342,7 +342,7 @@ function renderQuestion() {
 
 btnStart.addEventListener( "click", function () {
 
-    
+
     user = userName.value;
     team = userTeam.value;
     if ( user === "" || team === "" ) {
@@ -350,7 +350,7 @@ btnStart.addEventListener( "click", function () {
     }
     else {
         setUser();
-        
+
         extractNav.innerHTML = extract + "/" + 30;
         renderQuestion();
         quiz.style.display = "block";
