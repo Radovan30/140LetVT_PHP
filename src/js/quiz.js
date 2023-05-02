@@ -52,6 +52,42 @@ let questions = [
         "correct ": "C"
     },
     {
+        "question": "Jaký další výrobek Válcovny trub se zde vyrábí? ",
+        "options1": "Svařovaný čtvercový profil",
+        "options2": "Bezešvý čtvercový a obdélníkový profil",
+        "options3": "Bezešvý čtvercový a trojúhelníkový profil",
+        "correct ": "B"
+    },
+    {
+        "question": "Jaký druh korozní ochrany se používá pro trubky určené pro export po moři? ",
+        "options1": "Balení trub do speciální folie s vysokou odolností proti mechanickému poškození",
+        "options2": "Aplikace speciálního antikorozního oleje",
+        "options3": "Aplikace speciálního antikorozního laku",
+        "correct ": "C"
+    },
+      {
+          "question": "Která z níže uvedených aplikací zlepšila významně kvalitu našich trubek na trati Velký Mannesman? ",
+          "options1": "Instalace vnějších a vnitřních brusek pro zlepšení kvality obou povrchů",
+          "options2": "Instalace termokamery pro detekci rozměrových odchylek při procesu děrování",
+          "options3": "Instalace podepření děrovaného předvalku pro stabilizaci rozměru předvalku",
+        "correct ": "C"
+    },
+    {
+        "question": "Kde byla původně rozložena ohýbárna trubek za studena? ",
+        "options1": "Špalkárna",
+        "options2": "Dnešní 11 hala",
+        "options2": "Sklad OOPP",
+        "correct ": "B"
+    },
+    {
+        "question": "Jak se říkalo odlehlému provozu válcovny trub, který sídlil v Ostravě – Svinově? ",
+        "options1": "Manesmanka",
+        "options2": "Tažírna",
+        "options2": "Sochorový závod",
+        "options2": "Železárenská huť",
+        "correct ": "A"
+    },
+    {
         "question": "Rovnoměrnost prohřátí je velmi důležité pro další tváření. ",
         "options1": "Pravda",
         "options2": "Lež",
@@ -71,7 +107,6 @@ let questions = [
         "options3": "2",
         "correct ": "C"
     },
-    /*
     {
         "question": "Co se stane se žhavou ocelovou trubkou, když ji prudce vložíme do studené vody? ",
         "options1": "Nic, ochladí se",
@@ -79,7 +114,6 @@ let questions = [
         "options3": "Stane se to, že se trubka ohne a nebude splňovat požadavky zákazníka a musí se vyřadit ",
         "correct ": "B"
     },
-    */
     {
         "question": "Jakou technologii dělení trub používáme za poutní stolicí? ",
         "options1": "Pásové pily",
