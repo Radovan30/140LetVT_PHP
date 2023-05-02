@@ -2,7 +2,7 @@
 
 let questions = [
     {
-        "question": "V jakém roce byla vyrobena první trubka v plynové peci svařená na tupo? Jednalo se o první trubka vyrobenou v Rakousko-uherské monarchii. Do té doby se dovážely z Anglie nebo Německa. ",
+        "question": "Ve kterém roce byla vyrobena první trubka v plynové peci svařená na tupo? Jednalo se o první trubku vyrobenou v Rakousko-uherské monarchii. Do té doby se dovážely z Anglie nebo Německa. ",
         "options1": "1880",
         "options2": "1896",
         "options3": "1883",
@@ -10,7 +10,7 @@ let questions = [
         "correct ": "C"
     },
     {
-        "question": "Díky modernizaci tratí byla navýšena roční kapacita výroby trub na: ",
+        "question": "Díky modernizaci tratí v roce 2008 byla navýšena roční kapacita výroby trub na: ",
         "options1": "60 tisíc tun",
         "options2": "123 tisíc tun",
         "options3": "90 tisíc tun",
@@ -18,13 +18,13 @@ let questions = [
         "correct ": "B"
     },
     {
-        "question": "Válcovna trub je schopná vyrobit také pouze jednu trubku podle specifikací zákazníka: ",
+        "question": "Je Válcovna trub schopna vyrobit také pouze jednu trubku podle specifikací zákazníka? ",
         "options1": "ANO",
         "options2": "NE",
         "correct ": "A"
     },
     {
-        "question": "Jak se jmenuje obkročné vozidlo, kterým převážíme materiál? ",
+        "question": "Jak se jmenuje obkročné vozidlo převážející materiál v našem závodě? ",
         "options1": "Mannesmann",
         "options2": "Ingoty",
         "options3": "Kalibr",
@@ -32,7 +32,7 @@ let questions = [
         "correct ": "D"
     },
     {
-        "question": "Probíhá výroba stejným způsobem na Malém Mannesmannu a Velkém Mannesmannu? ",
+        "question": "Probíhá výroba stejným způsobem v Malém Mannesmannu a Velkém Mannesmannu? ",
         "options1": "Ano",
         "options2": "Ne",
         "correct ": "A"
@@ -52,7 +52,7 @@ let questions = [
         "correct ": "C"
     },
     {
-        "question": "Jaký další výrobek Válcovny trub se zde vyrábí? ",
+        "question": "Který další výrobek Válcovna trub vyrábí? ",
         "options1": "Svařovaný čtvercový profil",
         "options2": "Bezešvý čtvercový a obdélníkový profil",
         "options3": "Bezešvý čtvercový a trojúhelníkový profil",
@@ -73,18 +73,18 @@ let questions = [
         "correct ": "C"
     },
     {
-        "question": "Kde byla původně rozložena ohýbárna trubek za studena? ",
+        "question": "Kde se původně nacházela ohýbárna trubek za studena? ",
         "options1": "Špalkárna",
         "options2": "Dnešní 11 hala",
-        "options2": "Sklad OOPP",
+        "options3": "Sklad OOPP",
         "correct ": "B"
     },
     {
         "question": "Jak se říkalo odlehlému provozu válcovny trub, který sídlil v Ostravě – Svinově? ",
         "options1": "Manesmanka",
         "options2": "Tažírna",
-        "options2": "Sochorový závod",
-        "options2": "Železárenská huť",
+        "options3": "Sochorový závod",
+        "options4": "Železárenská huť",
         "correct ": "A"
     },
     {
@@ -101,21 +101,21 @@ let questions = [
         "correct ": "A"
     },
     {
-        "question": "Kolik válců používá poutní stolice VM při válcování? ",
+        "question": "Kolik válců používá poutní stolice Velkého Mannesmanu při válcování? ",
         "options1": "4",
         "options2": "3",
         "options3": "2",
         "correct ": "C"
     },
     {
-        "question": "Co se stane se žhavou ocelovou trubkou, když ji prudce vložíme do studené vody? ",
+        "question": "Co se stane se žhavou ocelovou trubkou, když ji prudce ochladíme ve studené vodě? ",
         "options1": "Nic, ochladí se",
         "options2": "Vzniknou strukturní produkty odpovídající intenzitě ochlazení",
         "options3": "Stane se to, že se trubka ohne a nebude splňovat požadavky zákazníka a musí se vyřadit ",
         "correct ": "B"
     },
     {
-        "question": "Jakou technologii dělení trub používáme za poutní stolicí? ",
+        "question": "Jakou technologii dělení trub používáme za poutní stolici? ",
         "options1": "Pásové pily",
         "options2": "Kotoučové pily",
         "options3": "Trubky dělíme, až jsou studené",
@@ -136,10 +136,10 @@ let questions = [
         "correct ": "A"
     },
     {
-        "question": "Jaké jsou vstupní rozměry vsázky pro Velký Mannesmann? ",
-        "options1": "290, 400, 450",
-        "options2": "300, 390, 460",
-        "options3": "320, 410, 470",
+        "question": "Jaké jsou vstupní průměry vsázky pro Velký Mannesmann? ",
+        "options1": "Ø290, Ø400, Ø450",
+        "options2": "Ø300, Ø390, Ø460",
+        "options3": "Ø320, Ø410, Ø470",
         "correct ": "C"
     },
     {
@@ -151,13 +151,13 @@ let questions = [
     },
     {
         "question": "Jaký je rozsah vyráběných průměrů ve Válcovně trub? ",
-        "options1": "60 – 406",
-        "options2": "85 – 400",
-        "options3": "70 – 410",
+        "options1": "Ø60 – 406",
+        "options2": "Ø85 – 400",
+        "options3": "Ø70 – 410",
         "correct ": "A"
     },
     {
-        "question": "K jakým účelům jsou používány závitované trubky vyráběné ve VT? ",
+        "question": "K jakým účelům jsou používány závitované trubky vyráběné ve Válcovně trub? ",
         "options1": "Potrubní pošta",
         "options2": "Těžba ropy a plynu",
         "options3": "Vodovodní potrubí",
@@ -185,21 +185,21 @@ let questions = [
         "correct ": "B"
     },
     {
-        "question": "Kolik v průměru kubických metrů kyslíku ročně potřebuje Špalkárna na dělení špalků pro výrobu VT? ",
+        "question": "Kolik v průměru kubických metrů kyslíku ročně potřebuje Špalkárna na dělení špalků pro výrobu Válcovny trub? ",
         "options1": "Průměrně 470 000 Nm3",
         "options2": "Průměrně 810 000 Nm3",
         "options3": "Průměrně 660 000 Nm3 ",
         "correct ": "C"
     },
     {
-        "question": "Kolik mostových jeřábu je na provoze VT? ",
+        "question": "Kolik mostových jeřábů je na provozu Válcovny trub? ",
         "options1": "27",
         "options2": "43",
         "options3": "51",
         "correct ": "B"
     },
     {
-        "question": "Jaký je výkon největšího motoru na VT? ",
+        "question": "Jaký je výkon největšího motoru ve Válcovně trub? ",
         "options1": "1,5 MW",
         "options2": "2,1 MW",
         "options3": "2,7 MW",
@@ -207,18 +207,11 @@ let questions = [
     },
     {
         "question": "Jaké jsou vstupní rozměry vsázky pro Malý Mannesmann? ",
-        "options1": "120, 150, 180",
-        "options2": "150, 180, 210",
-        "options3": "180, 210, 240",
+        "options1": "Ø120, Ø150, Ø180",
+        "options2": "Ø150, Ø180, Ø210",
+        "options3": "Ø180, Ø210, Ø240",
         "correct ": "B"
     },
-    {
-        "question": "Ve kterém roce byla vyrobena první trubka na tupo v plynové peci v původním výrobním závodu v rámci bývalých Vítkovických železáren?",
-        "options1": "1875",
-        "options2": "1895",
-        "options3": "1883",
-        "correct ": "C"
-    }
 ]
 
 

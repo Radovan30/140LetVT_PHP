@@ -6,10 +6,10 @@
             <div id="question"></div>
 
             <div id="choices">
-                <button class="button is-large is-fullwidth is-light" id="A" onclick="checkAnswer('A')"></button>
-                <button class="button is-large is-fullwidth is-light" id="B" onclick="checkAnswer('B')"></button>
-                <button class="button is-large is-fullwidth is-light" id="C" onclick="checkAnswer('C')"></button>
-                <button class="button is-large is-fullwidth is-light" id="D" onclick="checkAnswer('D')"></button>
+                <button class="btn is-light" id="A" onclick="checkAnswer('A')"></button>
+                <button class="btn is-light" id="B" onclick="checkAnswer('B')"></button>
+                <button class="btn is-light" id="C" onclick="checkAnswer('C')"></button>
+                <button class="btn is-light" id="D" onclick="checkAnswer('D')"></button>
             </div>
         </div>
     </article>

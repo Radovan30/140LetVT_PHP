@@ -30,7 +30,7 @@
         <div class="level-item has-text-centered">
             <div>
                 <label for="score" class="heading">skóre</label>
-                <input type="text" class="title" id="score" size="3" value="0" readonly>
+                <input type="text" class="title" id="score" size="5" value="0" readonly>
             </div>
         </div>
     </nav>
