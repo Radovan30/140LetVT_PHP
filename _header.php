@@ -16,18 +16,18 @@
 <header class="container has-background-light">
 
     <nav class="level">
-        <div class="level-item has-text-centered">
+        <div class="card-footer-item">
             <div>
                 <p class="heading ">otázky</p>
                 <p id="extract" class="title">0/30</p>
             </div>
         </div>
 
-        <div class="level-item has-text-centered">
+        <div class="card-footer-item">
             <img class="logo" src="src/img/VTTZ_140_3.png" alt="logo" style="height: 90px;">
         </div>
 
-        <div class="level-item has-text-centered">
+        <div class="card-footer-item">
             <div>
                 <label for="score" class="heading">skóre</label>
                 <input type="text" class="title" id="score" size="5" value="0" readonly>

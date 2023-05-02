@@ -60,7 +60,7 @@ body {
 .score-window {
   display: none;
   position: absolute;
-  top: 397px;
+  top: 426px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 900px;
@@ -172,7 +172,7 @@ body {
     margin: 0 50px;
   }
   .score-window {
-    top: 34.3rem;
+    top: 37.6rem;
     height: 20rem;
   }
 }
